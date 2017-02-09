@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="749ff738-f5b9-44c7-836f-5b7abb76276c" name="Default" comment="" />
+    <list default="true" id="749ff738-f5b9-44c7-836f-5b7abb76276c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ActionCode.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CodePart.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Id.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ImportSpec.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/InitWith.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MugSpec.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/NonTerminal.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Package.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ParserCode.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ProdPart.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ProdSymbol.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Production.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/RightHandSide.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ScanWith.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Symbol.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SyntaxDirectedTranslation.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Terminal.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Mug/MainKt.class" afterPath="$PROJECT_DIR$/out/production/Mug/MainKt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Mug/Mug/Lexer.class" afterPath="$PROJECT_DIR$/out/production/Mug/Mug/Lexer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Mug/Mug/SpecsParser.class" afterPath="$PROJECT_DIR$/out/production/Mug/Mug/SpecsParser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Mug/Token/Token.class" afterPath="$PROJECT_DIR$/out/production/Mug/Token/Token.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mug.iml" afterPath="$PROJECT_DIR$/Mug.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Mug/Example.mug" afterPath="$PROJECT_DIR$/out/production/Mug/Example.mug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Example.mug" afterPath="$PROJECT_DIR$/src/Example.mug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lexer.kt" afterPath="$PROJECT_DIR$/src/Lexer.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.kt" afterPath="$PROJECT_DIR$/src/Main.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SpecsParser.kt" afterPath="$PROJECT_DIR$/src/SpecsParser.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TokenType.kt" afterPath="$PROJECT_DIR$/src/TokenType.kt" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,68 +58,109 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#59#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SpecsParser.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SpecsParser.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding>
-                <element signature="e#2#42#0" expanded="true" />
-                <element signature="e#56#97#0" expanded="true" />
-                <element signature="n#!!block;n#code_parts#0;n#!!block;n#SpecsParser#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TokenType.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TokenType.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="195" column="0" lean-forward="false" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
+                <element signature="n#!!block;n#action_code_part#0;n#!!block;n#SpecsParser#0" expanded="false" />
+                <element signature="n#!!block;n#parser_code_part#0;n#!!block;n#SpecsParser#0" expanded="false" />
+                <element signature="n#!!block;n#init_code#0;n#!!block;n#SpecsParser#0" expanded="false" />
+                <element signature="n#!!block;n#scan_code#0;n#!!block;n#SpecsParser#0" expanded="false" />
+                <element signature="n#!!block;n#term_id#0;n#!!block;n#SpecsParser#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Example.mug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Example.mug">
+      <file leaf-file-name="SyntaxDirectedTranslation.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SyntaxDirectedTranslation.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+            <state relative-caret-position="34">
+              <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lexer.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lexer.kt">
+      <file leaf-file-name="ProdSymbol.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProdSymbol.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="56" column="43" lean-forward="false" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#54#114#0" expanded="true" />
-                <element signature="n#!!block;n#SetupTokens#0;n#!!block;n#Lexer#0" expanded="false" />
-                <element signature="n#!!block;n#do_code_string#0;n#!!block;n#Lexer#0" expanded="false" />
-                <element signature="n#!!block;n#do_id#0;n#!!block;n#Lexer#0" expanded="false" />
-                <element signature="n#!!block;n#secondCurrentSymbol#0;n#!!block;n#Lexer#0" expanded="false" />
-                <element signature="n#!!block;n#thirdCurrentSymbol#0;n#!!block;n#Lexer#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProdPart.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProdPart.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NonTerminal.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NonTerminal.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Terminal.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Terminal.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Symbol.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Symbol.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScanWith.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ScanWith.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InitWith.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/InitWith.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParserCode.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ParserCode.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -106,30 +178,47 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>do_code_string</find>
-      <find>NEW_LINE</find>
-      <find>column</find>
-      <find>column=0</find>
-      <find>symbol_list_prime</find>
-      <find>.type.equals(TokenType.ID)</find>
-      <find>.type.equals(TokenType.SEMI)</find>
       <find>new_term_id</find>
-      <find>term_name_list</find>
       <find>declares_non_term</find>
-      <find>import_spec</find>
       <find>term_id</find>
       <find>code_part()</find>
       <find>declares_term</find>
       <find>production_list()</find>
       <find>token</find>
+      <find>multipart_id</find>
+      <find>term_i</find>
+      <find>type_id</find>
+      <find>type_id()</find>
+      <find>opt_type_id</find>
+      <find>non_term_name_list_prime</find>
+      <find>import_id</find>
+      <find>expected!</find>
       <find>code_strin</find>
+      <find>import_spec</find>
+      <find>ImportSpec</find>
+      <find>code_p</find>
+      <find>symbol</find>
+      <find>term_name_list</find>
+      <find>ProdSymbol</find>
+      <find>SyntaxDirectedTranslation</find>
+      <find>Production</find>
+      <find>rhs_list_prime</find>
+      <find>RightHandSide</find>
+      <find>rhs_list</find>
+      <find>production_list_prime</find>
+      <find>START</find>
+      <find>production_list</find>
     </findStrings>
     <replaceStrings>
       <replace>IsId()</replace>
       <replace>.IsId()</replace>
       <replace>.IsSemi()</replace>
+      <replace>expected!\n${_currentToken.error()}</replace>
       <replace>column=1</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -140,11 +229,28 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Sym.kt" />
-        <option value="$PROJECT_DIR$/src/Example.mug" />
-        <option value="$PROJECT_DIR$/src/TokenType.kt" />
-        <option value="$PROJECT_DIR$/src/SpecsParser.kt" />
         <option value="$PROJECT_DIR$/src/Lexer.kt" />
+        <option value="$PROJECT_DIR$/src/TokenType.kt" />
+        <option value="$PROJECT_DIR$/src/Example.mug" />
         <option value="$PROJECT_DIR$/src/Main.kt" />
+        <option value="$PROJECT_DIR$/src/MugSpec.kt" />
+        <option value="$PROJECT_DIR$/src/Production.kt" />
+        <option value="$PROJECT_DIR$/src/RightHandSide.kt" />
+        <option value="$PROJECT_DIR$/src/Id.kt" />
+        <option value="$PROJECT_DIR$/src/Package.kt" />
+        <option value="$PROJECT_DIR$/src/ImportSpec.kt" />
+        <option value="$PROJECT_DIR$/src/CodePart.kt" />
+        <option value="$PROJECT_DIR$/src/ActionCode.kt" />
+        <option value="$PROJECT_DIR$/src/ParserCode.kt" />
+        <option value="$PROJECT_DIR$/src/InitWith.kt" />
+        <option value="$PROJECT_DIR$/src/ScanWith.kt" />
+        <option value="$PROJECT_DIR$/src/Symbol.kt" />
+        <option value="$PROJECT_DIR$/src/Terminal.kt" />
+        <option value="$PROJECT_DIR$/src/NonTerminal.kt" />
+        <option value="$PROJECT_DIR$/src/ProdPart.kt" />
+        <option value="$PROJECT_DIR$/src/ProdSymbol.kt" />
+        <option value="$PROJECT_DIR$/src/SyntaxDirectedTranslation.kt" />
+        <option value="$PROJECT_DIR$/src/SpecsParser.kt" />
       </list>
     </option>
   </component>
@@ -161,6 +267,9 @@
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -216,10 +325,13 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
   </component>
   <component name="RunManager" selected="Kotlin.MainKt">
     <configuration default="false" name="Main" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
@@ -651,12 +763,12 @@
       <updated>1486189992271</updated>
       <workItem from="1486189993659" duration="890000" />
       <workItem from="1486419684605" duration="11965000" />
-      <workItem from="1486513805175" duration="29518000" />
+      <workItem from="1486513805175" duration="48061000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42373000" />
+    <option name="totallyTimeSpent" value="60916000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -669,7 +781,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -688,12 +800,12 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33260393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37308535" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37308535" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -714,23 +826,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/SpecsParser.kt</url>
-          <line>304</line>
+          <line>392</line>
           <properties />
           <option name="timeStamp" value="22" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/SpecsParser.kt</url>
-          <line>214</line>
-          <properties />
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="31" />
+      <option name="time" value="46" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JetRunConfigurationType">
         <watch expression="tokens" />
         <watch expression="secondCurrentSymbol()" />
+        <watch expression="importList" />
       </configuration>
     </watches-manager>
   </component>
@@ -744,7 +851,7 @@
         <state relative-caret-position="17">
           <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
           <folding>
-            <element signature="e#0#59#0" expanded="true" />
+            <element signature="e#0#87#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -768,7 +875,6 @@
             <element signature="e#54#114#0" expanded="true" />
             <element signature="n#!!block;n#SetupTokens#0;n#!!block;n#Lexer#0" expanded="false" />
             <element signature="n#!!block;n#do_code_string#0;n#!!block;n#Lexer#0" expanded="false" />
-            <element signature="n#!!block;n#do_id#0;n#!!block;n#Lexer#0" expanded="false" />
             <element signature="n#!!block;n#secondCurrentSymbol#0;n#!!block;n#Lexer#0" expanded="false" />
             <element signature="n#!!block;n#thirdCurrentSymbol#0;n#!!block;n#Lexer#0" expanded="false" />
           </folding>
@@ -788,7 +894,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#59#0" expanded="true" />
+            <element signature="e#0#87#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -810,10 +916,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lexer.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#54#114#0" expanded="true" />
+            <element signature="n#!!block;n#SetupTokens#0;n#!!block;n#Lexer#0" expanded="false" />
+            <element signature="n#!!block;n#do_code_string#0;n#!!block;n#Lexer#0" expanded="false" />
+            <element signature="n#!!block;n#secondCurrentSymbol#0;n#!!block;n#Lexer#0" expanded="false" />
+            <element signature="n#!!block;n#thirdCurrentSymbol#0;n#!!block;n#Lexer#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TokenType.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="195" column="0" lean-forward="false" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
+        <state relative-caret-position="403">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -822,46 +943,169 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Example.mug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+        <state relative-caret-position="1241">
+          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lexer.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="56" column="43" lean-forward="false" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#54#114#0" expanded="true" />
-            <element signature="n#!!block;n#SetupTokens#0;n#!!block;n#Lexer#0" expanded="false" />
-            <element signature="n#!!block;n#do_code_string#0;n#!!block;n#Lexer#0" expanded="false" />
-            <element signature="n#!!block;n#do_id#0;n#!!block;n#Lexer#0" expanded="false" />
-            <element signature="n#!!block;n#secondCurrentSymbol#0;n#!!block;n#Lexer#0" expanded="false" />
-            <element signature="n#!!block;n#thirdCurrentSymbol#0;n#!!block;n#Lexer#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
-            <element signature="e#0#59#0" expanded="true" />
+            <element signature="e#0#87#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MugSpec.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Production.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RightHandSide.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Id.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Package.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ImportSpec.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodePart.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ActionCode.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParserCode.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InitWith.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ScanWith.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Symbol.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Terminal.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NonTerminal.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProdPart.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProdSymbol.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SyntaxDirectedTranslation.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SpecsParser.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2#42#0" expanded="true" />
-            <element signature="e#56#97#0" expanded="true" />
-            <element signature="n#!!block;n#code_parts#0;n#!!block;n#SpecsParser#0" expanded="false" />
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!block;n#action_code_part#0;n#!!block;n#SpecsParser#0" expanded="false" />
+            <element signature="n#!!block;n#parser_code_part#0;n#!!block;n#SpecsParser#0" expanded="false" />
+            <element signature="n#!!block;n#init_code#0;n#!!block;n#SpecsParser#0" expanded="false" />
+            <element signature="n#!!block;n#scan_code#0;n#!!block;n#SpecsParser#0" expanded="false" />
+            <element signature="n#!!block;n#term_id#0;n#!!block;n#SpecsParser#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -883,7 +1127,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Kotlin</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -895,6 +1139,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>com.google.code.gson:gson:2.8.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

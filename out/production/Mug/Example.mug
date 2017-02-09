@@ -1,80 +1,83 @@
-import java_cup.runtime.ComplexSymbolFactory;
-import java_cup.runtime.ScannerBuffer;
-import java_cup.runtime.XMLElement;
-import javax.xml.stream.XMLOutputFactory;
-import javax.xml.stream.XMLStreamWriter;
-import java.io.*;
 
-import javax.xml.transform.*;
-import javax.xml.transform.stream.*;
+
+import java_cup.runtime.*;
+
 parser code {:
-  public Parser(Lexer lex, ComplexSymbolFactory sf) {
-    super(lex,sf);
-  }
-  public static void main(String[] args) throws Exception {
-      // initialize the symbol factory
-      ComplexSymbolFactory csf = new ComplexSymbolFactory();
-      // create a buffering scanner wrapper
-      ScannerBuffer lexer = new ScannerBuffer(new Lexer(new BufferedReader(new FileReader(args[0])),csf));
-      // start parsing
-      Parser p = new Parser(lexer,csf);
-      XMLElement e = (XMLElement)p.parse().value;
-      // create XML output file 
-      XMLOutputFactory outFactory = XMLOutputFactory.newInstance();
-      XMLStreamWriter sw = outFactory.createXMLStreamWriter(new FileOutputStream(args[1]));
-      // dump XML output to the file
-      XMLElement.dump(lexer,sw,e,"expr","stmt");
 
-       // transform the parse tree into an AST and a rendered HTML version
-      Transformer transformer = TransformerFactory.newInstance()
-	    .newTransformer(new StreamSource(new File("tree.xsl")));
-      Source text = new StreamSource(new File(args[1]));
-      transformer.transform(text, new StreamResult(new File("output.xml")));
-      transformer = TransformerFactory.newInstance()
-	    .newTransformer(new StreamSource(new File("tree-view.xsl")));
-      text = new StreamSource(new File("output.xml"));
-      transformer.transform(text, new StreamResult(new File("ast.html")));
-  }
+    public void report_error(String message, Object info) {
+
+        StringBuilder m = new StringBuilder("Error");
+
+        if (info instanceof java_cup.runtime.Symbol) {
+            java_cup.runtime.Symbol s = ((java_cup.runtime.Symbol) info);
+
+            if (s.left >= 0) {
+                m.append(" in line "+(s.left+1));
+                if (s.right >= 0)
+                    m.append(", column "+(s.right+1));
+            }
+        }
+
+        m.append(" : "+message);
+
+        System.err.println(m);
+    }
+
+    public void report_fatal_error(String message, Object info) {
+        report_error(message, info);
+        System.exit(1);
+    }
 :};
 
-terminal SEMICOLON, COMMA, LPAR, RPAR, BEGIN, END, IF, ELSE, WHILE, READ, WRITE, BUNOP, ASSIGN;
-terminal TYPE, BINOP, UNOP, COMP, BBINOP, INTCONST;
-terminal IDENT,STRINGCONST;
-terminal BOOLCONST;
 
-non terminal program, decllist,decl,stmtlist,identlist,stmt,expr,cond;
 
-program   ::=  decllist:d stmtlist:s
-    ;
-decllist  ::=  decl:d decllist:dl
-    ;
-stmtlist  ::= stmtlist:sl stmt:s
-        ;
-decl ::= TYPE IDENT:identifier identlist:il  SEMICOLON
-    ;
-identlist  ::= identlist:il COMMA IDENT:identifier
+terminal           SEMI, PLUS, MINUS, TIMES, DIVIDE, LPAREN, RPAREN;
+terminal Integer   NUMBER, ID;
+terminal           SATAN;
 
-    ;
-stmt ::= SEMICOLON
-    | BEGIN stmtlist:sl END
-    | IDENT:lhs ASSIGN expr:rhs SEMICOLON
-    | IDENT:lhs ASSIGN READ LPAR RPAR SEMICOLON
-    | IDENT:lhs ASSIGN READ LPAR STRINGCONST:s RPAR SEMICOLON
-    | WRITE LPAR expr:e RPAR SEMICOLON
-    | WRITE LPAR STRINGCONST:s RPAR SEMICOLON
-    | IF LPAR cond:c RPAR stmt:s
-    | IF LPAR cond:c RPAR stmt:t ELSE stmt:e
-    | WHILE LPAR cond:c RPAR stmt:s
-    ;
-cond ::= BOOLCONST:c
-    | LPAR cond:c RPAR
-    | expr:e1 COMP:op expr:e2
-    | BUNOP cond:c
-    | cond:c1 BBINOP:op cond:c2
-    ;
-expr ::= IDENT:identifier
-    | INTCONST:constant
-    | LPAR expr:e RPAR
-    | BINOP expr:e
-    | expr:e1 BINOP:op expr:e2
-    ;
+non terminal Object     expr_list, expr_part;
+non terminal Integer    expr, factor, term;
+
+
+
+
+
+   expr_list ::= expr_list expr_part
+                 |expr_part;
+
+
+   expr_part ::= expr:e SEMI {: System.out.println(e); :}
+                 ;
+
+
+   expr      ::= expr:e PLUS factor:f
+                 {: RESULT = e + f; :}
+                 |
+                 expr:e MINUS factor:f
+                 {: RESULT = e - f; :}
+                 |
+                 factor:f
+                 {: RESULT = f; :}
+                 ;
+
+
+   factor    ::= factor:f TIMES term:t
+                 {: RESULT = f * t; :}
+                 |
+                 factor:f DIVIDE term:t
+                 {: RESULT = f / t; :}
+                 |
+                 term:t
+                 {: RESULT = t; :}
+                 ;
+
+
+   term      ::= LPAREN expr:e RPAREN
+                 {: RESULT = e; :}
+                 |
+                 NUMBER:n
+                 {: RESULT = n; :}
+                 |
+                 ID:i
+                 {: RESULT = 0; :}
+                 ;

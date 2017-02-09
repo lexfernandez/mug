@@ -172,7 +172,7 @@ class Lexer {
     private fun  do_id(lexeme: String): Token {
         var _lexeme = lexeme
         var character = currentSymbol()
-        while (character.isLetterOrDigit() || character.equals('_') || character.equals('.') || character.equals('*')){
+        while (character.isLetterOrDigit() || character.equals('_')){
             _lexeme += character
             if(character.equals(NEW_LINE)){
                 row++

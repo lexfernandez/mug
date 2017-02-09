@@ -1,6 +1,10 @@
 import java.io.File
 import Mug.Lexer
 import Mug.SpecsParser
+import com.google.gson.Gson
+
+
+
 /**
  * Created by olore on 2/4/2017.
  */
@@ -20,7 +24,9 @@ fun main(args: Array<String>){
         //lex.Tokens().forEach { print("$it\n") }
         var specsTree = specsParser.Parse()
 
-        //println("Content $content")
+        val gson = Gson()
+        val json = gson.toJson(specsTree)
+        println("json => $json")
     }
 
 }

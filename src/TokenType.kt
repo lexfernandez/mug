@@ -108,7 +108,7 @@ class Token(val lexeme: String, val type: TokenType, val row: Int, val column: I
     }
 
     fun  IsStar(): Boolean {
-        if(type.equals(TokenType.START)){
+        if(type.equals(TokenType.STAR)){
             return true
         }
         return false
@@ -210,6 +210,10 @@ class Token(val lexeme: String, val type: TokenType, val row: Int, val column: I
             return true
         }
         return false
+    }
+
+    fun error(): String {
+        return "($row,$column) $type => $lexeme"
     }
 
 
